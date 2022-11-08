@@ -16,7 +16,7 @@ class Usuario {
       return true;
     }
 
-    console.log("A senha não confere com o usuário.");
+    console.log("Usuário ou senha incorretos.");
     return false;
   }
 }
